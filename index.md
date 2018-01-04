@@ -1,37 +1,8 @@
-## Welcome to GitHub Pages
+# Daiyi Peng
+I am a software artist. I like beautiful code, not only in how we express ideas, but also in the underlying structures that reveal the law of nature. 
 
-You can use the [editor on GitHub](https://github.com/daiyip/daiyip.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+I have been working in Microsoft for 10 years as a Principal Software Engineer Manager, I founded and co-authored project [Napa.js](https://github.com/Microsoft/napajs) and [Winery.js](https://github.com/Microsoft/wineryjs).
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/daiyip/daiyip.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+## Publications
+- [Napa.js: A multi-threaded JavaScript runtime](https://www.linkedin.com/pulse/napajs-multi-threaded-javascript-runtime-daiyi-peng/)
+- [Continuous modification: a process to build services that constantly evolve](https://www.linkedin.com/pulse/continuous-modification-process-build-services-constantly-daiyi-peng/)
