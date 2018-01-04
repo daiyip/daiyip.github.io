@@ -1,5 +1,5 @@
 # About
-I like beautiful code, not only in how we express ideas, but also in the underlying structures that reveal the law of nature. 
+I am a software engineer. I like reading and writing beautiful code, not only in how it expresses ideas, but also in its underlying structures that reveal the law of nature. 
 
 I have been working in Microsoft for 10 years as a Principal Software Engineer Manager, I founded and co-authored project [Napa.js](https://github.com/Microsoft/napajs) and [Winery.js](https://github.com/Microsoft/wineryjs).
 
