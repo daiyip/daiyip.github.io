@@ -1,7 +1,7 @@
 # About
 I like beautiful code, not only in how it expresses ideas, but also in its underlying structures that reveal the law of nature. 
 
-I am now working in Google as a software engineer on machine learning, before that I worked in Microsoft as an engineer and a engineer manager. I founded and co-authored project [Napa.js](https://github.com/Microsoft/napajs) and [Winery.js](https://github.com/Microsoft/wineryjs).
+I am now working in Google as a software engineer on machine learning, before that I worked in Microsoft as an engineer and an engineer manager. I founded and co-authored project [Napa.js](https://github.com/Microsoft/napajs) and [Winery.js](https://github.com/Microsoft/wineryjs).
 
 ## Publication
 - [Napa.js: A multi-threaded JavaScript runtime](https://www.linkedin.com/pulse/napajs-multi-threaded-javascript-runtime-daiyi-peng/)
