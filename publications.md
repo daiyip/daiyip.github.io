@@ -13,5 +13,11 @@ title: Publications
 </div>
 
 <section class="pubs">
+  <div class="label">Papers</div>
   {% include publication-list.html items=site.data.publications %}
+</section>
+
+<section class="pubs">
+  <div class="label">Patents</div>
+  {% include publication-list.html items=site.data.patents %}
 </section>

@@ -3,6 +3,6 @@
   <div class="title"><a href="{{ p.url }}">{{ p.title }}</a></div>
   <div class="authors">{{ p.authors | replace: "Daiyi Peng", "<b>Daiyi Peng</b>" }}</div>
   <div class="venue mono">{{ p.venue }}</div>
-  <div class="summary">{{ p.summary }}</div>
+  {%- if p.summary %}<div class="summary">{{ p.summary }}</div>{% endif %}
 </div>
 {%- endfor %}
