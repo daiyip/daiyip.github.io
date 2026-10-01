@@ -2,8 +2,6 @@
 ---
 
 # About
-I like beautiful code, not only in how it expresses ideas, but also in its underlying structures that reveal the law of nature.
-
 I recently retired from Google to start an experiment in post-AGI life.
 
 - Former research engineer at **Google DeepMind**, working on long-term LLM research, especially agents.
