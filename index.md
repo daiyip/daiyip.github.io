@@ -21,8 +21,7 @@ layout: default
 
 <section>
   <div class="label">Selected publications</div>
-  {% assign recent = site.data.publications | slice: 0, 5 %}
-  {% include publication-titles.html items=recent %}
+  {% include publication-titles.html items=site.data.selected_publications %}
   <div class="more mono"><a href="{{ '/publications' | relative_url }}">All publications →</a></div>
 </section>
 

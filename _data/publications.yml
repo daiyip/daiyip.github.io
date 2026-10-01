@@ -1,8 +1,15 @@
-# Newest first. The home page shows the first five entries.
+# Papers since 2018 from Google Scholar, newest first, deduplicated by keeping
+# the version with more citations. The full list is shown on /publications.
+- title: "SEVerA: Verified Synthesis of Self-Evolving Agents"
+  url: https://arxiv.org/abs/2603.25111
+  authors: Debangshu Banerjee, Changming Xu, Eugene Ie, Ming Zhang, Daiyi Peng, Chu-Cheng Lin, Gagandeep Singh
+  venue: arXiv 2026
+  summary: Combines formal specifications with gradient-based learning so self-evolving LLM agents improve while provably meeting their contracts.
+
 - title: "Type-Compliant Adaptation Cascades: Adapting Programmatic LM Workflows to Data"
   url: https://arxiv.org/abs/2508.18244
   authors: Chu-Cheng Lin, Daiyi Peng, Yifeng Lu, Ming Zhang, Eugene Ie
-  venue: ICLR 2026
+  venue: arXiv 2025
   summary: Treats LLM workflows as typed probabilistic programs with parameter-efficient adapters, so the whole workflow can be trained end-to-end with gradients instead of prompt tuning.
 
 - title: "Gemini 2.5: Pushing the Frontier with Advanced Reasoning, Multimodality, Long Context, and Next Generation Agentic Capabilities"
@@ -11,17 +18,29 @@
   venue: Technical report, 2025
   summary: The Gemini 2.X model family, with state-of-the-art coding and reasoning, long video understanding and new agentic workflows.
 
-- title: "MoLA: MoE LoRA with Layer-wise Expert Allocation"
-  url: https://aclanthology.org/2025.findings-naacl.284/
-  authors: Chongyang Gao, Kezhen Chen, Jinmeng Rao, Ruibo Liu, Baochen Sun, Yawen Zhang, Daiyi Peng, Xiaoyuan Guo, VS Subrahmanian
-  venue: Findings of NAACL 2025
-  summary: Allocates different numbers of LoRA experts to different Transformer layers, showing that more experts in higher layers gives better results with fewer parameters.
-
 - title: "Long-form factuality in large language models"
   url: https://arxiv.org/abs/2403.18802
   authors: Jerry Wei, Chengrun Yang, Xinying Song, Yifeng Lu, Nathan Hu, Jie Huang, Dustin Tran, Daiyi Peng, Ruibo Liu, Da Huang, Cosmo Du, Quoc V. Le
   venue: NeurIPS 2024
   summary: Introduces the LongFact benchmark, SAFE (a search-augmented automatic fact checker) and the F1@K metric for measuring factuality in long answers.
+
+- title: "Best Practices and Lessons Learned on Synthetic Data"
+  url: https://arxiv.org/abs/2404.07503
+  authors: Ruibo Liu, Jerry Wei, Fangyu Liu, Chenglei Si, Yanzhe Zhang, Jinmeng Rao, Steven Zheng, Daiyi Peng, Diyi Yang, Denny Zhou, Andrew M. Dai
+  venue: arXiv 2024
+  summary: A survey of how synthetic data is generated and used to train and evaluate language models, and how to keep it factual, faithful and unbiased.
+
+- title: "Higher Layers Need More LoRA Experts"
+  url: https://arxiv.org/abs/2402.08562
+  authors: Chongyang Gao, Kezhen Chen, Jinmeng Rao, Baochen Sun, Ruibo Liu, Daiyi Peng, Yawen Zhang, Xiaoyuan Guo, Jie Yang, VS Subrahmanian
+  venue: arXiv 2024
+  summary: Introduces MoLA, which allocates different numbers of LoRA experts to different Transformer layers, showing that more experts in higher layers gives better results with fewer parameters.
+
+- title: "OmniPred: Language Models as Universal Regressors"
+  url: https://arxiv.org/abs/2402.14547
+  authors: Xingyou Song, Oscar Li, Chansoo Lee, Bangding Yang, Daiyi Peng, Sagi Perel, Yutian Chen
+  venue: TMLR 2024
+  summary: Trains language models to do numeric regression from text alone, beating conventional regressors when trained across many tasks.
 
 - title: "Gemini: A Family of Highly Capable Multimodal Models"
   url: https://arxiv.org/abs/2312.11805
@@ -34,6 +53,12 @@
   authors: Yanqi Zhou, Nan Du, Yanping Huang, Daiyi Peng, Chang Lan, Da Huang, Siamak Shakeri, David So, Andrew M. Dai, Yifeng Lu, Zhifeng Chen, Quoc V. Le, Claire Cui, James Laudon, Jeff Dean
   venue: ICML 2023
   summary: A non-uniform Transformer architecture found by evolutionary search over layer types and sparsity, training faster and scaling better than hand-designed models like GLaM.
+
+- title: "LayerNAS: Neural Architecture Search in Polynomial Complexity"
+  url: https://arxiv.org/abs/2304.11517
+  authors: Yicheng Fan, Dana Alon, Jingyue Shen, Daiyi Peng, Keshav Kumar, Yun Long, Xin Wang, Fotis Iliopoulos, Da-Cheng Juan, Erik Vee
+  venue: arXiv 2023
+  summary: Searches architectures layer by layer, turning multi-objective NAS into a problem of polynomial complexity while still finding better models.
 
 - title: "PyGlove: Efficiently Exchanging ML Ideas as Code"
   url: https://arxiv.org/abs/2302.01918
@@ -53,8 +78,50 @@
   venue: AutoML Conference 2022
   summary: Shows that DARTS finds better policy networks for reinforcement learning across algorithms and environments, at about 3x the cost of training one model.
 
+- title: "Evolving Reinforcement Learning Algorithms"
+  url: https://arxiv.org/abs/2101.03958
+  authors: John D. Co-Reyes, Yingjie Miao, Daiyi Peng, Esteban Real, Sergey Levine, Quoc V. Le, Honglak Lee, Aleksandra Faust
+  venue: arXiv 2021
+  summary: Meta-learns RL algorithms by searching over computational graphs of loss functions, rediscovering temporal-difference learning and finding variants that improve on DQN.
+
+- title: "Rethinking Co-design of Neural Architectures and Hardware Accelerators"
+  url: https://arxiv.org/abs/2102.08619
+  authors: Yanqi Zhou, Xuanyi Dong, Berkin Akin, Mingxing Tan, Daiyi Peng, Tianjian Meng, Amir Yazdanbakhsh, Da Huang, Ravi Narayanaswami, James Laudon
+  venue: arXiv 2021
+  summary: Jointly searches neural architectures and edge accelerator configurations, improving ImageNet accuracy by about 1% or cutting energy by up to 2x.
+
+- title: "ES-ENAS: Blackbox Optimization over Hybrid Spaces via Combinatorial and Continuous Evolution"
+  url: https://arxiv.org/abs/2101.07415
+  authors: Xingyou Song, Krzysztof Choromanski, Jack Parker-Holder, Yunhao Tang, Qiuyi Zhang, Daiyi Peng, Deepali Jain, Wenbo Gao, Aldo Pacchiano, Tamas Sarlos, Yuxiang Yang
+  venue: arXiv 2021
+  summary: Combines evolution strategies with combinatorial optimizers to search spaces that mix discrete and continuous parameters.
+
+- title: "NAHAS: Neural Architecture and Hardware Accelerator Search"
+  url: https://openreview.net/forum?id=fgpXAu8puGj
+  authors: Yanqi Zhou, Xuanyi Dong, Daiyi Peng, Ethan Zhu, Amir Yazdanbakhsh, Berkin Akin, Mingxing Tan, James Laudon
+  venue: OpenReview 2021
+  summary: Searches neural architectures and hardware accelerator designs together rather than separately, for better accuracy and latency on edge devices.
+
+- title: "AutoHAS: Efficient Hyperparameter and Architecture Search"
+  url: https://arxiv.org/abs/2006.03656
+  authors: Xuanyi Dong, Mingxing Tan, Adams Wei Yu, Daiyi Peng, Bogdan Gabrys, Quoc V. Le
+  venue: arXiv 2020
+  summary: A single pipeline that searches architectures and hyperparameters together, alternating weight training with an RL controller.
+
+- title: "Towards NNGP-guided Neural Architecture Search"
+  url: https://arxiv.org/abs/2011.06006
+  authors: Daniel S. Park, Jaehoon Lee, Daiyi Peng, Yuan Cao, Jascha Sohl-Dickstein
+  venue: arXiv 2020
+  summary: Uses Neural Network Gaussian Process inference as a cheap signal for ranking architectures during neural architecture search.
+
 - title: "PyGlove: Symbolic Programming for Automated Machine Learning"
   url: https://arxiv.org/abs/2101.08809
   authors: Daiyi Peng, Xuanyi Dong, Esteban Real, Mingxing Tan, Yifeng Lu, Gabriel Bender, Hanxiao Liu, Adam Kraft, Chen Liang, Quoc V. Le
   venue: NeurIPS 2020 (oral)
   summary: A symbolic programming library that decouples search spaces, search algorithms and child programs, so AutoML ideas can be changed without rewriting program logic.
+
+- title: "Domain Adaptive Transfer Learning with Specialist Models"
+  url: https://arxiv.org/abs/1811.07056
+  authors: Jiquan Ngiam, Daiyi Peng, Vijay Vasudevan, Simon Kornblith, Quoc V. Le, Ruoming Pang
+  venue: arXiv 2018
+  summary: Shows that choosing pre-training data matters for transfer, and reweights it by importance to the target domain to improve fine-grained classification.

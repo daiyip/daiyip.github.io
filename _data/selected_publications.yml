@@ -1,0 +1,16 @@
+# The five papers shown on the home page, worded as in the 1b design.
+- title: "Type-Compliant Adaptation Cascades: Adapting Programmatic LM Workflows to Data"
+  url: https://arxiv.org/abs/2508.18244
+  venue: ICLR 2026
+- title: "Gemini 2.5: Pushing the Frontier with Advanced Reasoning, Multimodality, Long Context, and Next Generation Agentic Capabilities"
+  url: https://arxiv.org/abs/2507.06261
+  venue: Technical report, 2025
+- title: "MoLA: MoE LoRA with Layer-wise Expert Allocation"
+  url: https://aclanthology.org/2025.findings-naacl.284/
+  venue: Findings of NAACL 2025
+- title: "Long-form factuality in large language models"
+  url: https://arxiv.org/abs/2403.18802
+  venue: NeurIPS 2024
+- title: "Gemini: A Family of Highly Capable Multimodal Models"
+  url: https://arxiv.org/abs/2312.11805
+  venue: Technical report, 2023
