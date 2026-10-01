@@ -1,3 +1,5 @@
-theme: jekyll-theme-minimal
 title: Daiyi Peng
-description: Code for good
+description: Retired from Google in 2026 to start an experiment for post-AGI living.
+url: https://daiyip.com
+plugins:
+  - jekyll-seo-tag
