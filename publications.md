@@ -1,11 +1,23 @@
 ---
+layout: default
 title: Publications
 ---
 
-[← Home](/)
+<div class="intro">
+  <div class="links mono"><a href="{{ '/' | relative_url }}">← Daiyi Peng</a></div>
+  <h1>Publications</h1>
+  <div class="links mono">
+    <a href="https://scholar.google.com/citations?user=3PGBcLsAAAAJ&amp;hl=en">Google Scholar</a>
+    <a href="https://www.researchgate.net/scientific-contributions/Daiyi-Peng-2149822147">ResearchGate</a>
+  </div>
+</div>
 
-# Publications
+<section class="pubs">
+  <div class="label">Papers</div>
+  {% include publication-list.html items=site.data.publications %}
+</section>
 
-Also on [Google Scholar](https://scholar.google.com/citations?user=3PGBcLsAAAAJ&hl=en) and [ResearchGate](https://www.researchgate.net/scientific-contributions/Daiyi-Peng-2149822147).
-
-{% include publication-list.html items=site.data.publications %}
+<section class="pubs">
+  <div class="label">Patents</div>
+  {% include publication-list.html items=site.data.patents %}
+</section>

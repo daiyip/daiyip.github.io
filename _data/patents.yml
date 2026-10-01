@@ -1,0 +1,45 @@
+# Patents and published patent applications (from Google Scholar), newest first.
+- title: "Machine Learning Algorithm Search with Symbolic Programming"
+  url: https://patents.google.com/patent/US12443882B2/en
+  authors: Daiyi Peng, Yifeng Lu, Quoc V. Le
+  venue: US Patent 12,443,882 B2, 2025 (continuation US 2026/0105369 A1)
+
+- title: "Layerwise Multi-Objective Neural Architecture Search for Optimization of Machine-Learned Models"
+  url: https://patents.google.com/patent/US20250238683A1/en
+  authors: Yicheng Fan, Keshav Kumar, Andrew Tomkins, Dana Alon, Erik Nathan Vee, Shanmugasundaram Ravikumar, Jingyue Shen, Daiyi Peng
+  venue: US 2025/0238683 A1 (application), 2025
+
+- title: "Proxy Task Design Tools for Neural Architecture Search"
+  url: https://patents.google.com/patent/US20240289605A1/en
+  authors: Lav Rai, Xiang Xu, Yen-Min Hsu, Bo Wu, Daiyi Peng
+  venue: US 2024/0289605 A1 (application), 2024
+
+- title: "Neural Network Architecture Search over Complex Block Architectures"
+  url: https://patents.google.com/patent/US20240112027A1/en
+  authors: Yanqi Zhou, Yanping Huang, Yifeng Lu, Andrew M. Dai, Siamak Shakeri, Zhifeng Chen, James Laudon, Quoc V. Le, Da Huang, Nan Du, David Richard So, Daiyi Peng, Yingwei Cui, Jeffrey Adgate Dean, Chang Lan
+  venue: US 2024/0112027 A1 (application), 2024
+
+- title: "Neural Architecture and Hardware Accelerator Search"
+  url: https://patents.google.com/patent/US20240005129A1/en
+  authors: Yanqi Zhou, Amir Yazdanbakhsh, Berkin Akin, Daiyi Peng, Yuxiong Zhu, Mingxing Tan, Xuanyi Dong
+  venue: US 2024/0005129 A1 (application), 2024
+
+- title: "Reinforcement Learning Algorithm Search"
+  url: https://patents.google.com/patent/US20220391687A1/en
+  authors: John Dalton Co-Reyes, Yingjie Miao, Daiyi Peng, Sergey Vladimir Levine, Quoc V. Le, Honglak Lee, Aleksandra Faust
+  venue: US 2022/0391687 A1 (application), 2022
+
+- title: "Predicting Neural Network Performance Using Neural Network Gaussian Process"
+  url: https://patents.google.com/patent/US20220019856A1/en
+  authors: Jaehoon Lee, Daiyi Peng, Yuan Cao, Jascha Narain Sohl-Dickstein, Daniel Sung-Joon Park
+  venue: US 2022/0019856 A1 (application), 2022
+
+- title: "Joint Architecture and Hyper-Parameter Search for Machine Learning Models"
+  url: https://patents.google.com/patent/US20210383223A1/en
+  authors: Mingxing Tan, Xuanyi Dong, Wei Yu, Quoc V. Le, Daiyi Peng
+  venue: US 2021/0383223 A1 (application), 2021
+
+- title: "Training Machine Learning Models Using Adaptive Transfer Learning"
+  url: https://patents.google.com/patent/US20200104710A1/en
+  authors: Vijay Vasudevan, Ruoming Pang, Quoc V. Le, Daiyi Peng, Jiquan Ngiam, Simon Kornblith
+  venue: US 2020/0104710 A1 (application), 2020

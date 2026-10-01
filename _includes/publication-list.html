@@ -1,9 +1,8 @@
-<ul class="publications">
 {%- for p in include.items %}
-  <li>
-    <a href="{{ p.url }}"><strong>{{ p.title }}</strong></a><br>
-    <small>{{ p.authors | replace: "Daiyi Peng", "<b>Daiyi Peng</b>" }}. <em>{{ p.venue }}</em>.</small><br>
-    {{ p.summary }}
-  </li>
+<div class="pub-full">
+  <div class="title"><a href="{{ p.url }}">{{ p.title }}</a></div>
+  <div class="authors">{{ p.authors | replace: "Daiyi Peng", "<b>Daiyi Peng</b>" }}</div>
+  <div class="venue mono">{{ p.venue }}</div>
+  {%- if p.summary %}<div class="summary">{{ p.summary }}</div>{% endif %}
+</div>
 {%- endfor %}
-</ul>
