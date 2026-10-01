@@ -1,0 +1,60 @@
+# Newest first. The home page shows the first five entries.
+- title: "Type-Compliant Adaptation Cascades: Adapting Programmatic LM Workflows to Data"
+  url: https://arxiv.org/abs/2508.18244
+  authors: Chu-Cheng Lin, Daiyi Peng, Yifeng Lu, Ming Zhang, Eugene Ie
+  venue: ICLR 2026
+  summary: Treats LLM workflows as typed probabilistic programs with parameter-efficient adapters, so the whole workflow can be trained end-to-end with gradients instead of prompt tuning.
+
+- title: "Gemini 2.5: Pushing the Frontier with Advanced Reasoning, Multimodality, Long Context, and Next Generation Agentic Capabilities"
+  url: https://arxiv.org/abs/2507.06261
+  authors: Gemini Team, Google (including Daiyi Peng)
+  venue: Technical report, 2025
+  summary: The Gemini 2.X model family, with state-of-the-art coding and reasoning, long video understanding and new agentic workflows.
+
+- title: "MoLA: MoE LoRA with Layer-wise Expert Allocation"
+  url: https://aclanthology.org/2025.findings-naacl.284/
+  authors: Chongyang Gao, Kezhen Chen, Jinmeng Rao, Ruibo Liu, Baochen Sun, Yawen Zhang, Daiyi Peng, Xiaoyuan Guo, VS Subrahmanian
+  venue: Findings of NAACL 2025
+  summary: Allocates different numbers of LoRA experts to different Transformer layers, showing that more experts in higher layers gives better results with fewer parameters.
+
+- title: "Long-form factuality in large language models"
+  url: https://arxiv.org/abs/2403.18802
+  authors: Jerry Wei, Chengrun Yang, Xinying Song, Yifeng Lu, Nathan Hu, Jie Huang, Dustin Tran, Daiyi Peng, Ruibo Liu, Da Huang, Cosmo Du, Quoc V. Le
+  venue: NeurIPS 2024
+  summary: Introduces the LongFact benchmark, SAFE (a search-augmented automatic fact checker) and the F1@K metric for measuring factuality in long answers.
+
+- title: "Gemini: A Family of Highly Capable Multimodal Models"
+  url: https://arxiv.org/abs/2312.11805
+  authors: Gemini Team, Google (including Daiyi Peng)
+  venue: Technical report, 2023
+  summary: The first Gemini models, natively multimodal across image, audio, video and text, with Gemini Ultra setting the state of the art on 30 of 32 benchmarks.
+
+- title: "Brainformers: Trading Simplicity for Efficiency"
+  url: https://arxiv.org/abs/2306.00008
+  authors: Yanqi Zhou, Nan Du, Yanping Huang, Daiyi Peng, Chang Lan, Da Huang, Siamak Shakeri, David So, Andrew M. Dai, Yifeng Lu, Zhifeng Chen, Quoc V. Le, Claire Cui, James Laudon, Jeff Dean
+  venue: ICML 2023
+  summary: A non-uniform Transformer architecture found by evolutionary search over layer types and sparsity, training faster and scaling better than hand-designed models like GLaM.
+
+- title: "PyGlove: Efficiently Exchanging ML Ideas as Code"
+  url: https://arxiv.org/abs/2302.01918
+  authors: Daiyi Peng, Xuanyi Dong, Esteban Real, Yifeng Lu, Quoc V. Le
+  venue: arXiv 2023
+  summary: Uses symbolic patches so researchers can share ML ideas as rules that apply to models they have never seen, cutting code across teams.
+
+- title: "DeepFusion: Lidar-Camera Deep Fusion for Multi-Modal 3D Object Detection"
+  url: https://arxiv.org/abs/2203.08195
+  authors: Yingwei Li, Adams Wei Yu, Tianjian Meng, Ben Caine, Jiquan Ngiam, Daiyi Peng, Junyang Shen, Yifeng Lu, Denny Zhou, Quoc V. Le, Alan Yuille, Mingxing Tan
+  venue: CVPR 2022
+  summary: Fuses lidar and camera features deep in the network, using InverseAug and LearnableAlign to keep them aligned, for better 3D detection in self-driving.
+
+- title: "Differentiable Architecture Search for Reinforcement Learning"
+  url: https://arxiv.org/abs/2106.02229
+  authors: Yingjie Miao, Xingyou Song, John D. Co-Reyes, Daiyi Peng, Summer Yue, Eugene Brevdo, Aleksandra Faust
+  venue: AutoML Conference 2022
+  summary: Shows that DARTS finds better policy networks for reinforcement learning across algorithms and environments, at about 3x the cost of training one model.
+
+- title: "PyGlove: Symbolic Programming for Automated Machine Learning"
+  url: https://arxiv.org/abs/2101.08809
+  authors: Daiyi Peng, Xuanyi Dong, Esteban Real, Mingxing Tan, Yifeng Lu, Gabriel Bender, Hanxiao Liu, Adam Kraft, Chen Liang, Quoc V. Le
+  venue: NeurIPS 2020 (oral)
+  summary: A symbolic programming library that decouples search spaces, search algorithms and child programs, so AutoML ideas can be changed without rewriting program logic.
