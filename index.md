@@ -4,7 +4,7 @@ layout: default
 
 <div class="intro">
   <h1>Daiyi Peng</h1>
-  <p class="lede">I retired from Google in Sep. 2026 to start an experiment for&nbsp;<em>post-AGI living</em>.</p>
+  <p class="lede">I retired from Google in 2026 to start an experiment for&nbsp;<em>post-AGI living</em>.</p>
   <p class="bio">Former research engineer at <b>Google DeepMind</b>, working on long-term LLM research, especially agents. Before that, at <b>Google Brain</b>, working on AutoML. Before that, at <b>Microsoft</b>, working on distributed systems and search engines.</p>
   <div class="links mono">
     <a href="https://github.com/daiyip">GitHub</a>
